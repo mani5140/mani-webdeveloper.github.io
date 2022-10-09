@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Chowdary : web developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8045adf93f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#mywork">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" id="small" style="color: black;" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="small" style="color: black;" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB Developer</p>
+                <h1>Hi,I'm <span>Mani</span>  <br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------this is about section------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="about.jpeg">
+                </div>
+                <div class="col-2">
+                    <h2 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, vero delectus vitae itaque
+                         impedit voluptatum obcaecati dicta aspernatur expedita commodi, asperiores officia! Laborum pariatur nobis velit
+                          labore aperiam ut tempora incidunt hic itaque voluptates, impedit cum iste veniam illum voluptatum minus 
+                          amet accusamus vero reprehenderit, magni, qui doloremque ad corporis vel. Sint assumenda ipsam ipsa veniam illum,
+                         dicta mollitia vitae sit. Quis libero labore pariatur officiis est delectus cum ipsa dolorem voluptates debitis, id enim reiciendis.
+                          Necessitatibus, tenetur aliquam esse quo aut tempora nisi commodi natus accusamus corrupti modi quidem praesentium ea quibusdam hic 
+                          saepe quis, nulla recusandae. Obcaecati, iusto.</p>
+                    <div class="tabs">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>web application development</li>
+                            <li><span>Game Development</span><br>java game development</li>
+                            <li><span>Informatica</span><br>informatica developer</li>
+                        </ul>
+                    </div>  
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>web application development</li>
+                            <li><span>Game Development</span><br>java game development</li>
+                            <li><span>Informatica</span><br>informatica developer</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>pursued b.tech from lpu</li>
+                            <li><span>2018-2020</span><br>completed +2 from GM college</li>
+                            <li><span>2018</span><br>10th passed out</li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------services section------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-file-code"></i>
+                    <h2>Web design</h2>
+                    <p> Debitis voluptatibus corrupti cupiditate illum, culpa 
+                         expedita. Incidunt nesciunt est enim. Voluptatem, provident!
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                   <!-- <i class="fa-solid fa-gamepad-modern"></i> -->
+                   <i class="fa-solid fa-gamepad"></i>
+                    <h2>game design</h2>
+                    <p> Debitis voluptatibus corrupti cupiditate illum, culpa 
+                         expedita. Incidunt nesciunt est enim. Voluptatem, provident!
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>sql design</h2>
+                    <p> Debitis voluptatibus corrupti cupiditate illum, culpa 
+                         expedita. Incidunt nesciunt est enim. Voluptatem, provident!
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------My Work section -------------------->
+    <div id="mywork">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="mobile.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                             aperiam 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>     
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mobile.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                             aperiam 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>     
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mobile.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                             aperiam 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>     
+                    </div>
+                </div>
+                <a href="" class="switch">See More</a>
+            </div>
+        </div>
+    </div>    
+        <!------------------ contact section ------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>srimanikantagarapati12@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-square-phone"></i>8917611699</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="" download class="switch btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Enter Your Name" required>
+                            <input type="email" name="Email" placeholder="Enter Your Email" required>
+                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                            <button type="submit" class="switch btn">Submit</button>
+                        </form>
+                        <span id="msg">hi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Mani<i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxDQADuKEkQRRed1ToOsgeDYi_-86q3QsfMKgLH2Cx7Tggu2WB-syPtdE9oXtNyzu6G/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
